@@ -7,4 +7,6 @@ requires('Jifty');
 auto_install();
 tests(qw( t/*/t/*.t ));
 
+install_share;
+
 WriteAll;
